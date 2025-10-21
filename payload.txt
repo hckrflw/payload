@@ -1,5 +1,7 @@
-SSRF triggered successfully.
-Request received from Kong backend.
-If you see this file rendered, Kong fetched it via the `url=` parameter.
-Timestamp: {{timestamp}}
-User-Agent: {{user-agent}}
+<html>
+  <body>
+    <h1>SSRF Triggered</h1>
+    <p>Request received from Kong backend.</p>
+    <p>Timestamp: {{timestamp}}</p>
+  </body>
+</html>
