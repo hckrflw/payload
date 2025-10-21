@@ -1,1 +1,5 @@
-SSRF triggered: Kong backend reached this file
+SSRF triggered successfully.
+Request received from Kong backend.
+If you see this file rendered, Kong fetched it via the `url=` parameter.
+Timestamp: {{timestamp}}
+User-Agent: {{user-agent}}
